@@ -1,5 +1,5 @@
 #!/bin/bash
-LOCATION=/root/test
+LOCATION=     # give the directory path
 #FILECOUNT=$(find $LOCATION -mindepth 1 -maxdepth 1 -type f | wc -l)
 DIRCOUNT=$(find $LOCATION -mindepth 1 -maxdepth 1 -type d | wc -l)
 #echo " files are: $FILECOUNT "
@@ -14,7 +14,7 @@ DIRNAME=$(ls -t1 $LOCATION | tail -n 1)
  echo " $DIRNAME is delete"
  DIRCOUNT=$(find $LOCATION -mindepth 1 -maxdepth 1 -type d | wc -l)
 
-echo  "Reset-directories are : $DIRCOUNT "
+echo  "Remaining-directories are : $DIRCOUNT "
 done
 echo "it needs more backup"
 
