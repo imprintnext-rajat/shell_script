@@ -1,0 +1,1 @@
+https://toshy.github.io/BunnyNet-PHP/edge-storage-api/#list-files
