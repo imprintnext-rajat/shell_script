@@ -1,0 +1,5 @@
+{
+    "require": {
+        "league/flysystem-google-cloud-storage": "^3.28"
+    }
+}
